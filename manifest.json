@@ -1,18 +1,17 @@
 {
-	"name": "extension name",
-	"version": "0.0.1",
-	"manifest_version": 2,
-	"description": "extension description",
-	"background": {
-		"scripts": ["js/background.js"],
-		"persistent": false
-	},
-	"content_scripts": [
-		{
-			"matches": ["*://*/*"],
-			"css": ["css/style.css"],
-			"js": ["js/content.js"]
-		}
-	],
-	"permissions": []
+  "name": "extension name",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "description": "extension description",
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["css/style.css"],
+      "js": ["js/content.js"]
+    }
+  ],
+  "permissions": []
 }
