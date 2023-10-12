@@ -1,0 +1,25 @@
+{
+  "name": "web-summarizer",
+  "version": "1.0.0",
+  "description": "template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shikachii/web-summarizer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shikachii/web-summarizer/issues"
+  },
+  "homepage": "https://github.com/shikachii/web-summarizer#readme",
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "typescript": "^5.2.2"
+  }
+}
