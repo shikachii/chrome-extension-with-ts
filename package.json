@@ -1,23 +1,21 @@
 {
   "name": "web-summarizer",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsc && vite build --watch",
     "build": "tsc && vite build"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shikachii/web-summarizer.git"
+    "url": "git+https://github.com/shikachii/chrome-extension-with-ts.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shikachii/web-summarizer/issues"
+    "url": "https://github.com/shikachii/chrome-extension-with-ts/issues"
   },
-  "homepage": "https://github.com/shikachii/web-summarizer#readme",
+  "homepage": "https://github.com/shikachii/chrome-extension-with-ts#readme",
   "devDependencies": {
     "@types/chrome": "^0.0.246",
     "typescript": "^5.2.2",

@@ -8,7 +8,7 @@ export default defineConfig((opt) => {
       outDir: "../dist",
       rollupOptions: {
         input: {
-          content_scripts: resolve(__dirname, "src/content.ts"),
+          content: resolve(__dirname, "src/content.ts"),
           popup: resolve(__dirname, "src/popup.html"),
         },
         output: {
